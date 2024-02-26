@@ -1,0 +1,123 @@
+.primary-text{
+    font-size: 6rem;
+    // text-transform: uppercase;
+    display: block;
+    letter-spacing: -0.5rem;
+    cursor: pointer;
+}
+
+.black {
+    color: $black-color;
+}
+
+.white {
+    color: $white-color;
+}
+
+.pt {
+    --add: 0;
+    position: relative;
+    z-index: calc(1 + var(--add)*2);
+    display: inline-block;
+    font-weight: calc(200 + 700*var(--add));
+    font-stretch: calc(100% + 25%*var(--add));
+    transition: transform .2s,color .2s,font-stretch .2s,font-weight .2s;
+
+    &:hover {
+        --add: 1;
+        color: $brand-color-extralight;
+    }
+
+    &:hover + .pt {
+        --add: 0.7;
+        color: $brand-color-light;
+    }
+
+    &:hover + .pt + .pt {
+        --add: 0.4;
+        color: $brand-color;
+    }
+
+    &:hover + .pt + .pt + .pt {
+        --add: 0.2;
+        color: $brand-color-dark;
+    }
+
+}
+
+
+// Secondary Text
+
+// .displayAd__heading {
+//     opacity: 1;
+//     transform: translate(0px, 0px);
+//     transition: all 0.7s ease-out;
+//     transition-delay: 0.4s;
+// }
+
+.scroll-animation {
+    opacity: 0;
+    transform: translate(60px, 60px);
+}
+
+
+.secondary-heading {
+    font-size: 6rem;
+    display: inline-block;
+    // background-image: url("../assets/campaign_manager.png");
+    // background-clip: text;
+    // color: transparent;
+    color: black;
+    cursor: pointer;
+}
+
+
+// Paragraph
+.paragraph {
+    font-size: $font-default;
+    line-height: 1.7;
+    color: $white-color;
+}
+
+
+.btn,
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1.5rem 4rem;
+    font-size: 1.6rem;
+    border-radius: 10rem;
+    transition: all 0.2s ease-out;
+    border: none;
+    cursor: pointer;
+}
+
+.btn {
+    &--white {
+        color: $black-color;
+        background-color: $white-color;
+        
+        &::after {
+            background-color: $white-color;
+        }
+    }
+
+
+    &:hover {
+        transform: translateY(-0.3rem);
+    }
+
+    &:active {
+        transform: translateY(-0.1rem);
+    }
+    
+}
+
+.adwrap-cta {
+    opacity: 0;
+    transform: translate(100px, 80px);
+}
+
+

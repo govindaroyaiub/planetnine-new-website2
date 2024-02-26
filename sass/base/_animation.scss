@@ -1,0 +1,16 @@
+@keyframes platformSlider {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+
+@keyframes scroll-reveal {
+    to {
+        background-size: 100% 0%;
+    }
+}

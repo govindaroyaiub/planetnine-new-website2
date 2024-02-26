@@ -1,0 +1,14 @@
+{
+  "name": "planetnine",
+  "version": "1.0.0",
+  "description": "A simple homepage for planetnine company",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Ibrahim Faisal",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
