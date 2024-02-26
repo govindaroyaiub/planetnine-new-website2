@@ -945,6 +945,10 @@ main {
   }
   
   @media screen and (max-width: 600px){
+    .texts{
+      font-size: 2rem;
+    }
+    
     .workflow-timeline{
       margin: 0px auto;
     }
