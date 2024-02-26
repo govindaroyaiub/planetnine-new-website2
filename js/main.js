@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // text.style.marginTop = value * 2.5 + 'px';
     planet.style.top = value * .75 + 'px';
-    land.style.top = -(value * .15) + 'px';
+    land.style.top = -(value * 0.075) + 'px';
     text.style.marginTop = value * 0.75 + 'px';
   });
 

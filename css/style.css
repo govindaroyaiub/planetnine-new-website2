@@ -596,13 +596,13 @@ main {
   
   .texts {
     position: absolute;
-    font-size: 4em;
+    font-size: 5em;
     color: #f2f2f2;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-bottom: 9rem;
+    padding-bottom: 2rem;
   }
   
   .parallax img {
@@ -948,7 +948,7 @@ main {
     .texts{
       font-size: 2rem;
     }
-    
+
     .workflow-timeline{
       margin: 0px auto;
     }
