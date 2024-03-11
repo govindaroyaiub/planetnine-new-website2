@@ -1,5 +1,5 @@
 .front2 {
-    background-image: url("../assets/new-front-1.png");
+    background-image: url("https://i.ibb.co/QjSMKqz/new-front-1.png");
     position: absolute;
     width: 100%;
     height: 100%;
@@ -9,10 +9,11 @@
     mask-size: 5000% 100%;
     -webkit-animation: mask-play 2s steps(20) forwards;
     animation: mask-play 2s steps(20) forwards;
+    animation-delay: 2s;
     background-size: cover;
-    /*Covertheentirecontainer*/background-position: center;
-    /*Centertheimage*/background-repeat: no-repeat;
-    /*Donotrepeattheimage*/object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
   }
   
   .front {
