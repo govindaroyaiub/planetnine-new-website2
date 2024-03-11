@@ -9,7 +9,7 @@
     mask-size: 5000% 100%;
     -webkit-animation: mask-play 2s steps(20) forwards;
     animation: mask-play 2s steps(20) forwards;
-    animation-delay: 2s;
+    animation-delay: 1s;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
