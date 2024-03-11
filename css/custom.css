@@ -64,6 +64,11 @@
     -o-transition: all 0.5s;
 }
 
+.navbar .logo{
+  filter: invert(1);
+  -webkit-filter: invert(1);
+}
+
   header.scrolled{
     background-color: rgba(0 0, 0, 0.75);
   }
@@ -71,6 +76,11 @@
   header.scrolled > .navbar .links li a{
     color: #fff;
   }
+
+  header.scrolled > .navbar .logo{
+    filter: invert(0);
+    -webkit-filter: invert(0);
+}
   
   .navbar {
     width: 100%;
