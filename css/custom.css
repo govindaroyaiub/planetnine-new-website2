@@ -77,6 +77,10 @@
     color: #fff;
   }
 
+  header.scrolled > .navbar .links li a:hover{
+    color: orange;
+  }
+
   header.scrolled > .navbar .logo{
     filter: invert(0);
     -webkit-filter: invert(0);
