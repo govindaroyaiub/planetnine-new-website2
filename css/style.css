@@ -466,6 +466,7 @@ main {
   .navbar .logo a {
     font-size: 1.5rem;
     font-weight: bold;
+    color: #000;
   }
   
   .navbar .links {
@@ -573,7 +574,7 @@ main {
   
   a {
     text-decoration: none;
-    color: #fff;
+    color: #000;
     font-size: 2rem;
   }
   
@@ -983,5 +984,53 @@ main {
       border-right: 15px solid #fff;
       border-left: 0;
       left: -15px;
+    }
+  }
+
+  .front2 {
+    background-image: url("/assets/new-front-1.png");
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-mask-image: url("/assets/mask.png");
+    mask-image: url("/assets/mask.png");
+    -webkit-mask-size: 5000% 100%;
+    mask-size: 5000% 100%;
+    -webkit-animation: mask-play 2s steps(20) forwards;
+    animation: mask-play 2s steps(20) forwards;
+    background-size: cover;
+    /*Covertheentirecontainer*/background-position: center;
+    /*Centertheimage*/background-repeat: no-repeat;
+    /*Donotrepeattheimage*/object-fit: cover;
+  }
+  
+  .front {
+    width: 100%;
+    height: 100%;
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    object-fit: cover;
+  }
+  
+  @-webkit-keyframes mask-play {
+    from {
+    -webkit-mask-position: 0% 0;
+    mask-position: 0% 0;
+    }
+    to {
+    -webkit-mask-position: 100% 0;
+    mask-position: 100% 0;
+    }
+  }
+  
+  @keyframes mask-play {
+    from {
+    -webkit-mask-position: 0% 0;
+    mask-position: 0% 0;
+    }
+    to {
+    -webkit-mask-position: 100% 0;
+    mask-position: 100% 0;
     }
   }
