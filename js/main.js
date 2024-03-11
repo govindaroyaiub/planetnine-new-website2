@@ -15,21 +15,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // parallax code
 
-  let mountains = document.getElementById('mountains');
-  let sky = document.getElementById('sky');
-  let land = document.getElementById('land');
-  let planet = document.getElementById('planet');
-  let text = document.querySelector('.texts');
+  // let mountains = document.getElementById('mountains');
+  // let sky = document.getElementById('sky');
+  // let land = document.getElementById('land');
+  // let planet = document.getElementById('planet');
+  // let text = document.querySelector('.texts');
 
-  window.addEventListener('scroll', () => {
-    let value = window.scrollY;
-    console.log(value);
+  // window.addEventListener('scroll', () => {
+  //   let value = window.scrollY;
+  //   console.log(value);
 
-    // text.style.marginTop = value * 2.5 + 'px';
-    planet.style.top = value * .75 + 'px';
-    land.style.top = -(value * 0.075) + 'px';
-    text.style.marginTop = value * 0.75 + 'px';
-  });
+  //   // text.style.marginTop = value * 2.5 + 'px';
+  //   planet.style.top = value * .75 + 'px';
+  //   land.style.top = -(value * 0.075) + 'px';
+  //   text.style.marginTop = value * 0.75 + 'px';
+  // });
 
 });
 
