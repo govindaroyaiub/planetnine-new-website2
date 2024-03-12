@@ -1,5 +1,5 @@
 .front2 {
-    background-image: url("https://i.ibb.co/QjSMKqz/new-front-1.png");
+    background-image: url("https://i.ibb.co/f1yLnCV/new-front-1g.jpg");
     position: absolute;
     width: 100vw;
     height: 100%;
@@ -17,6 +17,7 @@
     background-repeat: no-repeat;
     object-fit: cover;
     opacity: 1;
+    overflow: hidden;
   }
   
   .front {
@@ -26,7 +27,7 @@
     background-position: center;
     background-repeat: no-repeat;
     object-fit: cover;
-
+    overflow: hidden;
 }
   
   @keyframes mask-play {
