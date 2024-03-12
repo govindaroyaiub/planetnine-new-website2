@@ -7,8 +7,8 @@
     mask-image: url("https://i.ibb.co/MNYjtDb/mask.png");
     -webkit-mask-size: 4900% 100%;
     mask-size: 4900% 100%;
-    -webkit-animation: mask-play 1.5s steps(10) forwards;
-    animation: mask-play 1.5s steps(10) forwards;
+    -webkit-animation: mask-play 1s steps(15) forwards;
+    animation: mask-play 1s steps(15) forwards;
     animation-delay: 1s;
     background-size: cover;
     background-position: center;
@@ -18,12 +18,12 @@
   }
   
   .front {
-    width: 100%;
+    width: 100vw;
     height: 100%;
     background-size: cover;
-    /*Covertheentirecontainer*/background-position: center;
-    /*Centertheimage*/background-repeat: no-repeat;
-    /*Donotrepeattheimage*/object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
 
 }
   
